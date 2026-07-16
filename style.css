@@ -1,0 +1,142 @@
+/* Simple stylesheet for Pakistan Cricket Team website */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #222222;
+}
+
+/* Header */
+header {
+  background-color: #01411C; /* Pakistan flag green */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+header p {
+  margin: 5px 0 0 0;
+  font-size: 16px;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #012a12;
+  overflow: hidden;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+nav a:hover {
+  background-color: #01411C;
+}
+
+/* Main content area */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #01411C;
+  border-bottom: 2px solid #01411C;
+  padding-bottom: 5px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #cccccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #01411C;
+  color: white;
+}
+
+ul {
+  line-height: 1.8;
+}
+
+.player-card {
+  background-color: #eaf5ec;
+  border-left: 5px solid #01411C;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+
+.player-card h3 {
+  margin: 0 0 5px 0;
+  color: #01411C;
+}
+
+form label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+form input, form textarea, form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+form button {
+  margin-top: 15px;
+  background-color: #01411C;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #012a12;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #01411C;
+  color: white;
+  margin-top: 30px;
+}
